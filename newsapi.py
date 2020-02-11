@@ -10,6 +10,7 @@ params = {
     "apiKey": secrets.NEWSAPI_KEY
 }
 
+
 response = requests.get(base_url, params)
 result = response.json()
 print(f"\nresult: {result}\n\n")
